@@ -15,7 +15,7 @@ public class ColoreoGrafo {
    */
   public static void main(String[] args) {
     URL path = ColoreoGrafo.class.getResource("/problemas");
-    String archivo = path.getPath().replace("%20", " ") + "/ZonaVeracruz.graph";
+    String archivo = path.getPath().replace("%20", " ") + "/republica-mexicana.graph";
     MapaCSP mapa = new MapaCSP(archivo);
     System.out.println("Variables = " + mapa.getVariables().toString());
     BacktrackingCronologico algoritmo = new BacktrackingCronologico(mapa);

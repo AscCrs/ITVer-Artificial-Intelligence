@@ -1,0 +1,87 @@
+//ESTADOS
+Aguascalientes
+Baja California
+Baja California Sur
+Campeche
+Chiapas
+Chihuahua
+Ciudad de Mexico
+Coahuila
+Colima
+Durango
+Estado de Mexico
+Guanajuato
+Guerrero
+Hidalgo
+Jalisco
+Michoacan
+Morelos
+Nayarit
+Nuevo Leon
+Oaxaca
+Puebla
+Queretaro
+Quintana Roo
+San Luis Potosi
+Sinaloa
+Sonora
+Tabasco
+Tamaulipas
+Tlaxcala
+Veracruz
+Yucatan
+Zacatecas
+//ENLACES
+Aguascalientes,Zacatecas,=,100
+Aguascalientes,Jalisco,=,120
+Baja California,Sonora,=,250
+Baja California Sur,Sinaloa,=,300
+Campeche,Yucatan,=,170
+Campeche,Quintana Roo,=,300
+Campeche,Tabasco,=,200
+Chiapas,Oaxaca,=,250
+Chiapas,Tabasco,=,150
+Chihuahua,Durango,=,300
+Chihuahua,Sonora,=,350
+Chihuahua,Coahuila,=,400
+Ciudad de Mexico,Estado de Mexico,=,50
+Ciudad de Mexico,Morelos,=,80
+Coahuila,Nuevo Leon,=,250
+Coahuila,Durango,=,350
+Colima,Jalisco,=,200
+Colima,Michoacan,=,150
+Durango,Zacatecas,=,200
+Durango,Nayarit,=,300
+Estado de Mexico,Hidalgo,=,100
+Estado de Mexico,Morelos,=,80
+Estado de Mexico,Puebla,=,120
+Estado de Mexico,Queretaro,=,150
+Guanajuato,Jalisco,=,200
+Guanajuato,Queretaro,=,100
+Guanajuato,Michoacan,=,150
+Guerrero,Michoacan,=,250
+Guerrero,Morelos,=,200
+Guerrero,Puebla,=,180
+Hidalgo,Queretaro,=,90
+Hidalgo,Puebla,=,110
+Jalisco,Nayarit,=,150
+Jalisco,Michoacan,=,180
+Michoacan,Estado de Mexico,=,200
+Morelos,Puebla,=,100
+Nayarit,Sinaloa,=,300
+Nuevo Leon,San Luis Potosi,=,300
+Oaxaca,Puebla,=,250
+Oaxaca,Veracruz,=,200
+Puebla,Veracruz,=,150
+Puebla,Tlaxcala,=,50
+Queretaro,San Luis Potosi,=,200
+San Luis Potosi,Zacatecas,=,180
+San Luis Potosi,Veracruz,=,300
+Sinaloa,Sonora,=,250
+Tabasco,Veracruz,=,170
+Tamaulipas,Nuevo Leon,=,220
+Tamaulipas,San Luis Potosi,=,250
+Tlaxcala,Veracruz,=,100
+Veracruz,Yucatan,=,600
+Yucatan,Quintana Roo,=,320
+//FIN
