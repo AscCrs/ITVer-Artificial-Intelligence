@@ -1,0 +1,16 @@
+//ESTADOS
+A
+B
+C
+D
+E
+//ENLACES
+A,B,=
+A,C,=
+B,C,=
+B,D,=
+C,D,=
+B,A,=
+C,E,=
+D,E,=
+//FIN
