@@ -1,0 +1,46 @@
+//ESTADOS
+Oradea, 186, 174
+Zerind, 136, 226
+Bucharest, 410, 481
+Urziceni, 478, 439
+Arad, 113, 267
+Mehadia, 179, 412
+Neamt, 432, 248
+Iasi, 411, 255
+Timisoara, 97, 380
+Pitesti, 417, 488
+Eforie, 562, 534
+Rimnicu Vilcea, 285, 334
+Craiova, 250, 482
+Hirsova, 558, 451
+Vaslui, 376, 285
+Giurgiu, 444, 550
+Sibiu, 263, 275
+Dobreta, 180, 556
+Fagaras, 384, 307
+Lugoj, 182, 394
+//ENLACES
+Oradea, Zerind,=,71
+Oradea, Sibiu,=,151
+Zerind, Arad,=,75
+Bucharest, Fagaras,=,211
+Bucharest, Giurgiu,=,90
+Bucharest, Pitesti,=,101
+Bucharest, Urziceni,=,85
+Urziceni, Hirsova,=,98
+Urziceni, Vaslui,=,142
+Arad, Sibiu,=,140
+Arad, Timisoara,=,118
+Mehadia, Dobreta,=,75
+Mehadia, Lugoj,=,70
+Neamt, Iasi,=,87
+Iasi, Vaslui,=,92
+Timisoara, Lugoj,=,111
+Pitesti, Rimnicu Vilcea,=,97
+Pitesti, Craiova,=,138
+Eforie, Hirsova,=,86
+Rimnicu Vilcea, Sibiu,=,80
+Rimnicu Vilcea, Craiova,=,146
+Craiova, Dobreta,=,120
+Sibiu, Fagaras,=,99
+//FIN
