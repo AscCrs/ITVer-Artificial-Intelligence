@@ -86,6 +86,10 @@ public abstract class ProblemaBusqueda<T extends Estado> {
         busqueda = new BusquedaPorProfundidadLimitada(this, limite);
         break;
       }
+      case BUSQUEDA_POR_PROFUNDIDAD_ITERATIVA: {
+        busqueda = new BusquedaPorProfundidadIterativa(this, limite);
+        break;
+      }
       default: {
         throw new UnsupportedOperationException("Estrategia de búsqueda no definida!");
       }

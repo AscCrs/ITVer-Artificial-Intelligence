@@ -22,7 +22,7 @@ public class PlaneacionRutas {
     System.out.println(estadoMeta);
     ProblemaPlaneacion problema =  new ProblemaPlaneacion(grafo,estadoInicial,estadoMeta);
     long tiempo = System.currentTimeMillis();
-    problema.buscarSolucion(BUSQUEDA_POR_PROFUNDIDAD_LIMITADA, SIN_REPETICION, 3);
+    problema.buscarSolucion(BUSQUEDA_POR_PROFUNDIDAD_ITERATIVA, SIN_REPETICION, 5);
     System.out.println(System.currentTimeMillis() - tiempo);
   }
 

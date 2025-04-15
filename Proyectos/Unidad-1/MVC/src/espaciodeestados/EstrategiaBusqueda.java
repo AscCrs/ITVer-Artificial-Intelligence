@@ -15,6 +15,7 @@ public abstract class EstrategiaBusqueda {
   public static final int BUSQUEDA_BEST_FIRST = 4;
   public static final int BUSQUEDA_A_ESTRELLA = 5;
   public static final int BUSQUEDA_POR_PROFUNDIDAD_LIMITADA = 6;
+  public static final int BUSQUEDA_POR_PROFUNDIDAD_ITERATIVA = 7;
   public static final boolean CON_REPETICION = true;
   public static final boolean SIN_REPETICION = false;
   
@@ -71,14 +72,3 @@ public abstract class EstrategiaBusqueda {
   }
   
 }
-
-
-
-
-
-
-
-
-
-
-
