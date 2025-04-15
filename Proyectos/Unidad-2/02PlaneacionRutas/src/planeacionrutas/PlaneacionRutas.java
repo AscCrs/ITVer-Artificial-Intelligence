@@ -14,15 +14,15 @@ public class PlaneacionRutas {
    */
   public static void main(String[] args) {
     String archivo = PlaneacionRutas.class.
-            getResource("/problemas/mapa-espania.graph").getPath().replace("%20", " ");
+            getResource("/problemas/republica-mexicana.graph").getPath().replace("%20", " ");
     Grafo grafo = new Grafo(archivo);
-    EstadoNodo estadoInicial = new EstadoNodo(grafo.getNodos().get("Palencia"));
-    EstadoNodo estadoMeta = new EstadoNodo(grafo.getNodos().get("Barcelona"));
+    EstadoNodo estadoInicial = new EstadoNodo(grafo.getNodos().get("Chihuahua"));
+    EstadoNodo estadoMeta = new EstadoNodo(grafo.getNodos().get("Oaxaca"));
     System.out.println(estadoInicial);
     System.out.println(estadoMeta);
     ProblemaPlaneacion problema =  new ProblemaPlaneacion(grafo,estadoInicial,estadoMeta);
     long tiempo = System.currentTimeMillis();
-    problema.buscarSolucion(BUSQUEDA_POR_COSTO_UNIFORME, SIN_REPETICION);
+    problema.buscarSolucion(BUSQUEDA_POR_AMPLITUD, SIN_REPETICION);
     System.out.println(System.currentTimeMillis() - tiempo);
   }
 
